@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treatment Directory | Aurelia Dental Studio Navi Mumbai</title>
+  <meta name="description" content="Explore comprehensive dental treatments at Aurelia Dental Studio in Navi Mumbai. General, cosmetic, orthodontic, restorative, advanced root canal, and pediatric care.">
+  <meta name="keywords" content="dental treatments Navi Mumbai, clear aligners, porcelain veneers, dental implants, root canal, teeth cleaning">
+  <link rel="canonical" href="https://aureliadental.demo/treatments.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- DEMO NOTICE -->
+  <aside class="demo-banner" role="complementary">
+    <div class="container demo-banner-content">
+      <span class="demo-pill">Sales Demo</span>
+      <span>Demo Website — Treatment descriptions, timelines, and clinical indications presented for demonstration purposes.</span>
+    </div>
+  </aside>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Aurelia Dental Studio Home">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v20M2 12h20M7 7l10 10M17 7L7 17"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">AURELIA</span>
+          <span class="brand-tagline">Dental Studio</span>
+        </div>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="treatments.html" class="nav-link active">Treatments</a></li>
+          <li><a href="index.html#approach" class="nav-link">Our Approach</a></li>
+          <li><a href="doctor.html" class="nav-link">Doctors</a></li>
+          <li><a href="index.html#testimonials" class="nav-link">Patient Stories</a></li>
+          <li><a href="index.html#faqs" class="nav-link">FAQs</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html#booking" class="btn btn-primary btn-sm">
+          <span>Book an Appointment</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+    <div class="drawer-header">
+      <div class="brand-text">
+        <span class="brand-name">AURELIA</span>
+        <span class="brand-tagline">Dental Studio</span>
+      </div>
+      <button class="drawer-close" aria-label="Close mobile menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <ul class="drawer-nav-links">
+      <li><a href="index.html" class="drawer-nav-link">Home</a></li>
+      <li><a href="treatments.html" class="drawer-nav-link">Treatments Directory</a></li>
+      <li><a href="index.html#approach" class="drawer-nav-link">Our Approach</a></li>
+      <li><a href="doctor.html" class="drawer-nav-link">Doctors</a></li>
+      <li><a href="index.html#testimonials" class="drawer-nav-link">Patient Stories</a></li>
+      <li><a href="index.html#faqs" class="drawer-nav-link">FAQs</a></li>
+      <li><a href="contact.html" class="drawer-nav-link">Contact & Location</a></li>
+    </ul>
+    <a href="contact.html#booking" class="btn btn-primary btn-lg" style="width: 100%; margin-bottom: 1.5rem;">Book an Appointment</a>
+  </aside>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="section" style="padding-bottom: var(--space-2xl); border-bottom: 1px solid var(--color-border);">
+      <div class="container text-center" style="max-width: 780px;">
+        <span class="eyebrow">Comprehensive Clinical Directory</span>
+        <h1 class="section-title" style="font-size: clamp(2.4rem, 4vw, 3.8rem);">
+          Thoughtful Dental Care, Mastered in Detail.
+        </h1>
+        <p class="section-subtitle">
+          Explore our multidisciplinary clinical procedures. Every treatment is designed with conservative biological principles, digital diagnostics, and an emphasis on patient comfort.
+        </p>
+
+        <!-- Quick Jump Filter Tabs -->
+        <div style="display: flex; justify-content: center; gap: 0.65rem; flex-wrap: wrap; margin-top: 2.25rem;">
+          <a href="#general" class="tab-btn">General</a>
+          <a href="#cosmetic" class="tab-btn">Cosmetic</a>
+          <a href="#ortho" class="tab-btn">Orthodontics</a>
+          <a href="#restorative" class="tab-btn">Restorative</a>
+          <a href="#advanced" class="tab-btn">Advanced Care</a>
+          <a href="#pediatric" class="tab-btn">Pediatric</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TREATMENTS LISTING CONTENT -->
+    <section class="section">
+      <div class="container">
+
+        <!-- 1. GENERAL DENTISTRY -->
+        <div id="general" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 01</span>
+              <h2 class="category-title">General Dentistry</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Preventive care, diagnostics, and routine health preservation.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Checkups -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">GEN-01</span>
+                <span class="treatment-time-badge">45 – 60 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Dental Checkups & Assessment</h3>
+              <p class="treatment-detail-desc">
+                Comprehensive examination including 3D intraoral imaging, low-dose digital radiographs, periodontal screening, and oral cancer evaluation.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Recommended every 6 months</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> High-definition visual photo review</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Clear, jargon-free health baseline</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=General+Checkup#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Checkup</a>
+              </div>
+            </article>
+
+            <!-- 2. Cleaning -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">GEN-02</span>
+                <span class="treatment-time-badge">45 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Professional Cleaning & Air Polishing</h3>
+              <p class="treatment-detail-desc">
+                Gentle ultrasonic calculus removal combined with delicate glycine air-polishing to lift surface stains without abrading natural enamel.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Removes stubborn plaque & tartar</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pain-free, temperature-regulated water flow</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Leaves enamel polished and refreshed</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Cleaning#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Cleaning</a>
+              </div>
+            </article>
+
+            <!-- 3. Fillings -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">GEN-03</span>
+                <span class="treatment-time-badge">40 – 60 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Biomimetic Composite Fillings</h3>
+              <p class="treatment-detail-desc">
+                Tooth-colored nano-hybrid composite restorations layered with anatomical precision to seamlessly match natural tooth shade and contour.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 100% Mercury-free, bonded composite</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Preserves maximum healthy tooth structure</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Cured instantly with LED light tech</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Composite+Fillings#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Consultation</a>
+              </div>
+            </article>
+
+            <!-- 4. Tooth Extraction -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">GEN-04</span>
+                <span class="treatment-time-badge">45 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Atraumatic Tooth Extraction</h3>
+              <p class="treatment-detail-desc">
+                Gentle, minimally invasive tooth removal using micro-instruments to preserve surrounding alveolar bone and soft tissue for future restoration.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Localized gentle anesthesia protocols</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Socket preservation options available</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Detailed post-care healing support</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Extraction#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Consultation</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 2. COSMETIC DENTISTRY -->
+        <div id="cosmetic" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 02</span>
+              <h2 class="category-title">Cosmetic Dentistry</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Aesthetic enhancement balanced with biological harmony.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Smile Design -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">COS-01</span>
+                <span class="treatment-time-badge">2 – 3 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Digital Smile Design (DSD)</h3>
+              <p class="treatment-detail-desc">
+                Architectural smile design analyzing facial proportions, lip line dynamics, and speech patterns. Includes 3D mockup previews before treatment starts.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Interactive digital simulation</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Physical trial smile in your mouth</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Fully bespoke aesthetic customization</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Cosmetic+Dentistry#booking" class="btn btn-primary btn-sm" style="width: 100%;">Schedule Smile Design</a>
+              </div>
+            </article>
+
+            <!-- 2. Teeth Whitening -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">COS-02</span>
+                <span class="treatment-time-badge">60 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Professional In-Office Teeth Whitening</h3>
+              <p class="treatment-detail-desc">
+                Clinician-administered photo-activated whitening designed to gently brighten enamel shades with specialized desensitizing agents.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Up to 4–6 shades brighter in 1 session</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gum-protecting barrier applied</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Includes home touch-up maintenance guide</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Teeth+Whitening#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Whitening</a>
+              </div>
+            </article>
+
+            <!-- 3. Veneers -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">COS-03</span>
+                <span class="treatment-time-badge">2 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Hand-Layered Porcelain Veneers</h3>
+              <p class="treatment-detail-desc">
+                Ultra-thin, custom ceramic shells bonded to anterior tooth surfaces to correct discoloration, chipping, gaps, or mild irregular positioning.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Minimal preparation / ultra-conservative</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Exceptional stain-resistant luster</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Natural light-refracting translucency</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Veneers#booking" class="btn btn-primary btn-sm" style="width: 100%;">Consult on Veneers</a>
+              </div>
+            </article>
+
+            <!-- 4. Cosmetic Bonding -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">COS-04</span>
+                <span class="treatment-time-badge">Single Visit</span>
+              </div>
+              <h3 class="treatment-detail-name">Minimally Invasive Cosmetic Bonding</h3>
+              <p class="treatment-detail-desc">
+                Direct artistic application of micro-hybrid resins to fix minor chips, close small diastemas (gaps), and contour uneven incisal edges in one visit.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Zero enamel removal in most cases</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Completed in 45–60 minutes</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Highly cost-effective aesthetic fix</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Cosmetic+Bonding#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Bonding</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 3. ORTHODONTICS -->
+        <div id="ortho" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 03</span>
+              <h2 class="category-title">Orthodontics & Alignment</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Modern discreet alignment systems for teenagers and adults.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Clear Aligners -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ORT-01</span>
+                <span class="treatment-time-badge">6 – 14 Months</span>
+              </div>
+              <h3 class="treatment-detail-name">Discreet Clear Aligners</h3>
+              <p class="treatment-detail-desc">
+                Custom-molded transparent polyurethane aligners that gently guide teeth into alignment. Removable for eating, brushing, and special occasions.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Virtually invisible in daily interactions</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> No dietary restrictions</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Digital check-ins every 6–8 weeks</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Clear+Aligners#booking" class="btn btn-primary btn-sm" style="width: 100%;">Schedule Aligner Scan</a>
+              </div>
+            </article>
+
+            <!-- 2. Traditional Braces -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ORT-02</span>
+                <span class="treatment-time-badge">12 – 24 Months</span>
+              </div>
+              <h3 class="treatment-detail-name">Ceramic & Low-Profile Braces</h3>
+              <p class="treatment-detail-desc">
+                Modern orthodontic brackets engineered with rounded contours and tooth-colored ceramic options to manage complex tooth and jaw movements.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> High structural control for difficult malocclusions</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Smooth low-friction ceramic brackets</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Ideal for both teens and adults</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Orthodontics#booking" class="btn btn-primary btn-sm" style="width: 100%;">Consult Orthodontist</a>
+              </div>
+            </article>
+
+            <!-- 3. Bite Correction -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ORT-03</span>
+                <span class="treatment-time-badge">Custom Plan</span>
+              </div>
+              <h3 class="treatment-detail-name">Functional Bite Correction</h3>
+              <p class="treatment-detail-desc">
+                Addressing overbites, underbites, crossbites, and open bites to protect against premature tooth wear, muscular strain, and TMJ dysfunction.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Comprehensive occlusal balancing</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Relieves jaw tension & headache triggers</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Coordinated with restorative specialists</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Bite+Correction#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Assessment</a>
+              </div>
+            </article>
+
+            <!-- 4. Retainers -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ORT-04</span>
+                <span class="treatment-time-badge">Single Session</span>
+              </div>
+              <h3 class="treatment-detail-name">Precision Retention Systems</h3>
+              <p class="treatment-detail-desc">
+                Custom clear retainers or bonded lingual wires engineered to maintain your corrected alignment and prevent physiological relapse over time.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 3D digital impressions for exact fit</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Durable, medical-grade clear polymers</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Replacement backup models on file</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Retainers#booking" class="btn btn-primary btn-sm" style="width: 100%;">Order Retainer</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 4. RESTORATIVE DENTISTRY -->
+        <div id="restorative" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 04</span>
+              <h2 class="category-title">Restorative Dentistry</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Rebuilding strength, chewing function, and long-term oral architecture.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Crowns -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">RES-01</span>
+                <span class="treatment-time-badge">2 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Custom Ceramic & Zirconia Crowns</h3>
+              <p class="treatment-detail-desc">
+                Full-coverage restorative caps crafted from biocompatible zirconia or lithium disilicate to protect severely damaged or root-canal-treated teeth.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> High fracture resistance & natural aesthetics</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 3D optical scanning — no putty impressions</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Color-matched to adjacent dentition</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Dental+Crowns#booking" class="btn btn-primary btn-sm" style="width: 100%;">Consult on Crowns</a>
+              </div>
+            </article>
+
+            <!-- 2. Bridges -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">RES-02</span>
+                <span class="treatment-time-badge">2 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Fixed Dental Bridges</h3>
+              <p class="treatment-detail-desc">
+                Fixed non-removable ceramic units designed to replace one or more missing consecutive teeth by anchoring onto adjacent stable natural teeth.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Restores full chewing stability</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Prevents adjacent teeth from drifting</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Precision-milled framework</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Dental+Bridges#booking" class="btn btn-primary btn-sm" style="width: 100%;">Consult on Bridges</a>
+              </div>
+            </article>
+
+            <!-- 3. Dentures -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">RES-03</span>
+                <span class="treatment-time-badge">3 – 4 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Precision Modern Dentures</h3>
+              <p class="treatment-detail-desc">
+                High-comfort partial or complete prosthetic solutions designed with flexible, lightweight materials that conform closely to natural gum contours.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Anatomically contoured gum shading</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Lightweight, metal-free options available</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Implant-supported overdenture compatability</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Dentures#booking" class="btn btn-primary btn-sm" style="width: 100%;">Explore Dentures</a>
+              </div>
+            </article>
+
+            <!-- 4. Implants -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">RES-04</span>
+                <span class="treatment-time-badge">Multi-Stage</span>
+              </div>
+              <h3 class="treatment-detail-name">Computer-Guided Dental Implants</h3>
+              <p class="treatment-detail-desc">
+                Surgically placed titanium or ceramic fixtures that fuse with the jawbone, providing a permanent foundation for crowns, bridges, or full-arch prostheses.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Guided surgical template placement</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Stimulates and protects jawbone density</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Lifetime function with proper hygiene</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Dental+Implants#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Implant Assessment</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 5. ADVANCED CARE -->
+        <div id="advanced" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 05</span>
+              <h2 class="category-title">Advanced Care & Endodontics</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Microscope-assisted tooth-saving treatments and surgical care.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Root Canal -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ADV-01</span>
+                <span class="treatment-time-badge">1 – 2 Visits</span>
+              </div>
+              <h3 class="treatment-detail-name">Microscopic Root Canal Treatment</h3>
+              <p class="treatment-detail-desc">
+                Careful removal of infected dental pulp using high-magnification surgical operating microscopes, rotary endodontic files, and biocompatible warm obturation.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Relieves acute dental pain effectively</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Microscopic navigation of intricate canal anatomy</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gentle continuous anesthetic monitoring</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Root+Canal#booking" class="btn btn-primary btn-sm" style="width: 100%;">Schedule Endodontic Care</a>
+              </div>
+            </article>
+
+            <!-- 2. Wisdom Teeth -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ADV-02</span>
+                <span class="treatment-time-badge">45 – 60 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Wisdom Tooth Care & Management</h3>
+              <p class="treatment-detail-desc">
+                Preventive and surgical management of impacted or misaligned third molars, minimizing pressure on adjacent teeth and resolving pericoronitis infection.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 3D nerve path mapping via digital imaging</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Minimally invasive surgical protocol</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Expedited recovery guidelines & follow-up</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Wisdom+Tooth#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Consultation</a>
+              </div>
+            </article>
+
+            <!-- 3. Gum Treatment -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">ADV-03</span>
+                <span class="treatment-time-badge">45 – 60 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Periodontal & Gum Health Therapy</h3>
+              <p class="treatment-detail-desc">
+                Deep root surface debridement (scaling and root planing) to eradicate subgingival bacteria, arrest bone loss, and eliminate bleeding gums.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gentle antimicrobial pocket irrigation</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Localized anesthetic for complete comfort</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Personalized home maintenance coaching</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Gum+Treatment#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Periodontal Care</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 6. PEDIATRIC DENTISTRY -->
+        <div id="pediatric" class="treatments-category-block">
+          <div class="category-header-wrap">
+            <div>
+              <span class="eyebrow">Discipline 06</span>
+              <h2 class="category-title">Pediatric Dentistry</h2>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.25rem;">Gentle, reassuring dentistry crafted specifically for developing smiles.</p>
+            </div>
+          </div>
+
+          <div class="treatments-category-grid">
+            <!-- 1. Children's Checkups -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">PED-01</span>
+                <span class="treatment-time-badge">30 – 45 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Children's Checkups & Fun Visits</h3>
+              <p class="treatment-detail-desc">
+                Playful, positive dental introductions designed to establish comfort, evaluate enamel development, and spot growth irregularities early.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Zero-pressure, cheerful examination pacing</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Child-friendly terminology ("counting teeth")</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Parent coaching on toddler dental health</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Pediatric+Dentistry#booking" class="btn btn-primary btn-sm" style="width: 100%;">Schedule Child Visit</a>
+              </div>
+            </article>
+
+            <!-- 2. Pit & Fissure Sealants -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">PED-02</span>
+                <span class="treatment-time-badge">30 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Protective Dental Sealants</h3>
+              <p class="treatment-detail-desc">
+                Invisible protective coatings painted into the deep grooves of permanent molars, physically blocking food particles and cavity-causing plaque.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 100% Painless, no drilling required</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Reduces molar cavity risk by up to 80%</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Lasts for several critical growing years</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Pediatric+Dentistry#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Sealants</a>
+              </div>
+            </article>
+
+            <!-- 3. Fluoride Treatments -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">PED-03</span>
+                <span class="treatment-time-badge">20 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Enamel Fluoride Therapy</h3>
+              <p class="treatment-detail-desc">
+                Gentle topical fluoride varnish application that reinforces developing enamel against acid attacks and remineralizes microscopic early demineralization.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Quick application with pleasant taste</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Sets immediately upon contact with saliva</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Recommended every 6 months</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Pediatric+Dentistry#booking" class="btn btn-primary btn-sm" style="width: 100%;">Book Fluoride</a>
+              </div>
+            </article>
+
+            <!-- 4. Growth & Guidance -->
+            <article class="treatment-detail-card">
+              <div class="treatment-badge-row">
+                <span class="treatment-code">PED-04</span>
+                <span class="treatment-time-badge">30 Mins</span>
+              </div>
+              <h3 class="treatment-detail-name">Pediatric Dental Guidance</h3>
+              <p class="treatment-detail-desc">
+                Monitoring jaw arch development, transition from baby teeth to permanent teeth, thumb-sucking habits, and early airway-centric breathing health.
+              </p>
+              <ul class="treatment-specs-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Early interceptive assessment</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Nutritional advice for strong enamel</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Clear, supportive parental counseling</li>
+              </ul>
+              <div class="treatment-btn-row">
+                <a href="contact.html?treatment=Pediatric+Dentistry#booking" class="btn btn-primary btn-sm" style="width: 100%;">Schedule Guidance</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLOSING CTA -->
+    <section class="closing-cta-section">
+      <div class="container">
+        <div class="closing-cta-box">
+          <span class="eyebrow" style="color: var(--color-champagne);">Need Treatment Guidance?</span>
+          <h2 class="closing-cta-headline">Unsure Which Treatment Is Right for You?</h2>
+          <p class="closing-cta-sub">
+            Schedule an initial consultation. Our clinicians will assess your teeth, explain all suitable options, and design a plan around your exact comfort level.
+          </p>
+          <div class="closing-cta-actions">
+            <a href="contact.html#booking" class="btn btn-primary btn-lg" style="background-color: var(--color-champagne); color: var(--color-text-primary);">
+              Book an Appointment
+            </a>
+            <a href="tel:+912255501928" class="btn btn-outline-white btn-lg">
+              Call the Clinic
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-text">
+            <span class="brand-name">AURELIA</span>
+            <span class="brand-tagline">Dental Studio</span>
+          </div>
+          <p class="footer-about">
+            A specialized private dental studio in Navi Mumbai dedicated to clinical precision, transparent communication, and comfortable personalized care.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="treatments.html" class="footer-link">Treatments Directory</a></li>
+            <li><a href="index.html#approach" class="footer-link">Our Approach</a></li>
+            <li><a href="doctor.html" class="footer-link">Meet the Doctors</a></li>
+            <li><a href="contact.html" class="footer-link">Contact & Location</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Disciplines</h4>
+          <ul class="footer-links">
+            <li><a href="#general" class="footer-link">General Dentistry</a></li>
+            <li><a href="#cosmetic" class="footer-link">Cosmetic Dentistry</a></li>
+            <li><a href="#ortho" class="footer-link">Clear Aligners</a></li>
+            <li><a href="#restorative" class="footer-link">Dental Implants</a></li>
+            <li><a href="#advanced" class="footer-link">Root Canal Therapy</a></li>
+            <li><a href="#pediatric" class="footer-link">Pediatric Care</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Studio Hours</h4>
+          <div class="footer-contact-items">
+            <p>Mon – Sat: 09:30 AM – 07:30 PM</p>
+            <p>Sunday: By Prior Appointment</p>
+            <p style="margin-top: 0.75rem;">Palm Beach Road, Sanpada<br>Navi Mumbai, MH 400705</p>
+            <p>Phone: +91 22 5550 1928</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-demo-notice">
+        <strong>Demo Website Notice:</strong> Content shown for demonstration purposes. All doctor biographies, patient testimonials, treatment simulations, and addresses represent sample demo information.
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Aurelia Dental Studio. Demo Showcase Architecture.</div>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Clinical Notice</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE BOTTOM BAR -->
+  <aside class="mobile-bottom-bar" aria-label="Quick mobile contact actions">
+    <div class="mobile-bottom-bar-inner">
+      <a href="tel:+912255501928" class="mobile-action-btn mobile-action-call">Call</a>
+      <a href="https://wa.me/919820000000" target="_blank" rel="noopener" class="mobile-action-btn mobile-action-wa">Chat</a>
+      <a href="contact.html#booking" class="mobile-action-btn mobile-action-book">Book Visit</a>
+    </div>
+  </aside>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

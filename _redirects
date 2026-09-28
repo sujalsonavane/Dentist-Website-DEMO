@@ -1,0 +1,4 @@
+# Cloudflare Pages Clean URLs & Redirects
+/treatments  /treatments.html  200
+/doctor      /doctor.html      200
+/contact     /contact.html     200
