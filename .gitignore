@@ -1,6 +1,7 @@
-# Dependencies
+# Dependencies & Build Output
 node_modules/
 .npm/
+dist/
 
 # Environment and logs
 *.log

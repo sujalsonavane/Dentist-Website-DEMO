@@ -4,7 +4,7 @@
   "private": true,
   "description": "Aurelia Dental Studio — Modern Premium Dental Practice Website",
   "scripts": {
-    "build": "node -e \"console.log('Build ready for Cloudflare Pages')\"",
+    "build": "node build.js",
     "dev": "node server.js",
     "start": "node server.js",
     "serve": "node server.js",
@@ -17,5 +17,8 @@
     "aurelia-dental-studio"
   ],
   "author": "Aurelia Dental Studio",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.109.0"
+  }
 }
